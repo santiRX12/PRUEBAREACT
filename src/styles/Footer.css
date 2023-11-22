@@ -1,0 +1,49 @@
+
+.footer{
+    background-color:black;
+    color: white;
+}
+.arriba-2{
+    display: flex;
+    gap: 10px;
+    padding-left: 8%;
+    color: rgba(204,204,204,1);
+}
+.medio{
+    color: rgba(168,168,168,1);
+    padding-left: 8%;
+}
+.abajo-2{
+    display: flex;
+    width: 100%;
+    padding-left: 8%;
+    margin-top: 25px;
+}
+.izquierda{
+    display: flex;
+    gap: 25px;
+    width: 50%;
+    justify-content: left;
+    align-items: center;
+}
+
+.izquierda .facebook{
+    width: 3%;
+}
+.izquierda div{
+    width: 4%;
+}
+.derecha{
+    width: 50%;
+}
+.masDerecha{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.derecha img{
+    width: 95%;
+}
